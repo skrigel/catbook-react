@@ -27,7 +27,7 @@ const path = require("path"); // provide utilities for working with file and dir
 const api = require("./api.js");
 // Server configuration below
 // TODO change connection URL after setting up your own database (HINT: you will need to modify the .env file!)
-const mongoConnectionURL = process.env.mongoURL;
+const mongoConnectionURL = process.env.MongoURL;
 // TODO change database name to the name you chose
 const databaseName = "Cluster0";
 
